@@ -1,15 +1,16 @@
 ## Predicting All Cause 30-day Readmission Risk in Heart Failure Index Admissions
 
-You can use the [editor on GitHub](https://github.com/joergheintz/Hospital-ReAdmission-Data/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The Patient Protection and Affordable Care Act (ACA) of 2010 penalizes health systems with higher than expected readmission rates and creates a strong incentive for hospital systems to identify, at the time of discharge, those patients who are at high risk of being readmitted. 
 
-You'll be provided with a real data hospital data set. 
+Readmission rates, defined by the Centers for Medicare and Medicaid Services (CMS), are a risk-standardized rate of unplanned all-cause readmission after admission for any condition within 30 days of hospital discharge. The indicator is a single summary score that comprises risk-standardized rates of different hospital cohorts e.g. general medicine, surgery/gynecology, cardiorespiratory, cardiovascular, neurology, oncology, and psychiatry. The indicator is calculated by 1-year data and influences reimbursement decisions. 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Project Scope
+
+This project aims to improve upon OSF Healthcare’s current Readmission Risk Model in a meaningful and functionally significant manner by focusing effort on disease specific subsets of the data.  The current production system uses a combination of four sub-models to predict admitted inpa-tient risk of a CMS defined 30-day all-cause readmission.  Training occurred on the general inpa-tient population.  This project focuses on the Heart Failure subset of inpatient admissions with an end goal of creating a Heart Failure specific readmission model that is both an improvement to the current model’s performance on the Heart Failure sub-population and is deployable within our existing production infrastructure.
 
 ```markdown
-Syntax highlighted code block
+The project goal is to 
 
 # Header 1
 ## Header 2
